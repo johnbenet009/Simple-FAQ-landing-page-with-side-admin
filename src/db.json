@@ -1,0 +1,17 @@
+{
+  "faqs": [
+    {
+      "id": "1",
+      "question": "What is Sakeenah Arabic Institute?",
+      "answer": "Sakeenah Arabic Institute is a premier institution dedicated to teaching Arabic language and Islamic studies. We offer comprehensive programs designed to help students master Arabic and deepen their understanding of Islamic teachings.",
+      "category": "general",
+      "relatedIds": ["2", "3"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    }
+  ],
+  "admin": {
+    "username": "demo@demo.com",
+    "password": "111"
+  }
+}
