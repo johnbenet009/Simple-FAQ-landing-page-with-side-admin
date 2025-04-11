@@ -1,4 +1,4 @@
-# Sakeenah Arabic Institute FAQ System
+# Simple FAQ / Landing page System
 
 A modern, responsive FAQ system built with React, TypeScript, and Tailwind CSS. This application provides a beautiful interface for managing and displaying frequently asked questions about Sakeenah Arabic Institute's programs and services, complete with an admin panel and AI-powered question answering capabilities using Google's Gemini API.
 
