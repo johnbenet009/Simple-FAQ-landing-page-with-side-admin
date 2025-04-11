@@ -8,6 +8,24 @@ export interface FAQ {
   updatedAt: string;
 }
 
+export interface Service {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface AboutInfo {
+  id: string;
+  title: string;
+  content: string;
+  order: number;
+  createdAt: string;
+  updatedAt: string;
+}
+
 export interface AdminCredentials {
   username: string;
   password: string;
@@ -15,5 +33,7 @@ export interface AdminCredentials {
 
 export interface DBStructure {
   faqs: FAQ[];
+  services: Service[];
+  about: AboutInfo[];
   admin: AdminCredentials;
 }

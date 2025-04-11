@@ -3,9 +3,172 @@
     {
       "id": "1",
       "question": "What is Sakeenah Arabic Institute?",
-      "answer": "Sakeenah Arabic Institute is a premier institution dedicated to teaching Arabic language and Islamic studies. We offer comprehensive programs designed to help students master Arabic and deepen their understanding of Islamic teachings.",
+      "answer": "Sakeenah Arabic Institute is a premier institution dedicated to teaching Arabic language and Islamic studies. We offer comprehensive programs designed to help students master Arabic and deepen their understanding of Islamic teachings through a structured curriculum and experienced instructors.",
       "category": "general",
       "relatedIds": ["2", "3"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "question": "What courses do you offer?",
+      "answer": "We offer a wide range of courses including:\n\n- Beginner Arabic Language\n- Intermediate Arabic Grammar\n- Advanced Arabic Literature\n- Quranic Arabic\n- Islamic Studies\n- Arabic Conversation\n- Business Arabic\n- Classical Arabic Texts\n\nEach course is carefully structured to ensure progressive learning and practical application.",
+      "category": "courses",
+      "relatedIds": ["1", "4"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "question": "How long does it take to complete a course?",
+      "answer": "Course duration varies depending on the level and intensity:\n\n- Beginner courses: 3 months\n- Intermediate courses: 4-6 months\n- Advanced courses: 6-12 months\n\nWe also offer intensive programs and flexible learning paths to accommodate different schedules and learning preferences.",
+      "category": "courses",
+      "relatedIds": ["2", "4"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "question": "What are the admission requirements?",
+      "answer": "Our admission requirements vary by program level:\n\n**Basic Requirements:**\n- Age 16 or above\n- Basic literacy in English\n- Access to a computer with internet connection\n\n**Additional Requirements for Advanced Courses:**\n- Completion of prerequisite courses or\n- Passing placement test\n\nWe assess each application individually and provide placement guidance.",
+      "category": "admissions",
+      "relatedIds": ["2", "3"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "question": "Do you offer online classes?",
+      "answer": "Yes, we offer comprehensive online learning options:\n\n**Live Online Classes:**\n- Interactive sessions with instructors\n- Real-time feedback and discussion\n- Flexible scheduling options\n\n**Self-Paced Learning:**\n- Pre-recorded lessons\n- Digital study materials\n- Progress tracking\n\n**Hybrid Learning:**\n- Combination of live and self-paced learning\n- Personalized study plans\n- Regular assessments",
+      "category": "online",
+      "relatedIds": ["6", "7"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "question": "What support services do you provide?",
+      "answer": "We offer comprehensive support services:\n\n**Academic Support:**\n- One-on-one tutoring\n- Study groups\n- Writing assistance\n- Language practice sessions\n\n**Technical Support:**\n- 24/7 platform assistance\n- Learning management system help\n- Device compatibility support\n\n**Student Services:**\n- Academic advising\n- Career guidance\n- Learning resources access",
+      "category": "support",
+      "relatedIds": ["5", "8"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "7",
+      "question": "What makes your teaching methodology unique?",
+      "answer": "Our teaching methodology is distinguished by:\n\n**Integrated Approach:**\n- Combines traditional and modern methods\n- Emphasizes practical application\n- Cultural immersion elements\n\n**Personalized Learning:**\n- Adaptive curriculum\n- Individual progress tracking\n- Customized feedback\n\n**Interactive Elements:**\n- Role-playing exercises\n- Cultural workshops\n- Conversation practice\n\n**Technology Integration:**\n- Digital learning tools\n- Mobile learning options\n- Interactive assessments",
+      "category": "methodology",
+      "relatedIds": ["2", "5"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "8",
+      "question": "What certification do students receive?",
+      "answer": "Upon completion, students receive:\n\n**Course Certificates:**\n- Level completion certification\n- Skill-specific certificates\n- Program completion diplomas\n\n**Accreditation:**\n- Internationally recognized credentials\n- Professional development credits\n- Academic transcript\n\n**Additional Certifications:**\n- Language proficiency certificates\n- Specialized course certificates\n- Teaching qualification certificates (for eligible programs)",
+      "category": "certification",
+      "relatedIds": ["4", "6"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Arabic Language Courses",
+      "description": "Comprehensive Arabic language courses for all levels, from beginners to advanced learners. Our curriculum covers reading, writing, speaking, and listening skills with personalized attention and cultural immersion.",
+      "imageUrl": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Islamic Studies Program",
+      "description": "In-depth Islamic studies programs covering Quran, Hadith, Fiqh, and Islamic history. Learn from qualified scholars and engage in meaningful discussions about Islamic principles and practices.",
+      "imageUrl": "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Online Learning Platform",
+      "description": "Access our courses anywhere, anytime through our state-of-the-art online learning platform. Interactive lessons, live sessions, and progress tracking with mobile-friendly interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Intensive Programs",
+      "description": "Accelerated learning programs designed for rapid progress. Perfect for students seeking quick proficiency in Arabic language or Islamic studies with dedicated instructor support.",
+      "imageUrl": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Professional Development",
+      "description": "Specialized courses for educators, translators, and professionals seeking to enhance their Arabic language skills for career advancement and professional growth.",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Youth Programs",
+      "description": "Engaging and interactive Arabic language and Islamic studies programs specifically designed for young learners, featuring age-appropriate content and activities.",
+      "imageUrl": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    }
+  ],
+  "about": [
+    {
+      "id": "1",
+      "title": "Our Mission",
+      "content": "To provide high-quality Arabic language education and Islamic studies in a nurturing environment that promotes academic excellence and spiritual growth. We strive to empower students with knowledge, understanding, and practical skills.",
+      "order": 1,
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Our Vision",
+      "content": "To be the leading institution in Arabic language education and Islamic studies, fostering a global community of knowledgeable and spiritually conscious individuals who contribute positively to society.",
+      "order": 2,
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Our Values",
+      "content": "Excellence in education, respect for diversity, commitment to spiritual growth, innovation in teaching, and dedication to student success guide everything we do at Sakeenah Arabic Institute.",
+      "order": 3,
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Our Approach",
+      "content": "We combine traditional Islamic educational methods with modern teaching techniques, creating an engaging learning environment that respects both classical scholarship and contemporary educational needs.",
+      "order": 4,
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Our Community",
+      "content": "Our diverse community includes students from various backgrounds, united by their desire to learn Arabic and deepen their understanding of Islamic teachings in a supportive and inclusive environment.",
+      "order": 5,
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Our Impact",
+      "content": "Since our establishment, we have helped thousands of students achieve their goals in Arabic language proficiency and Islamic knowledge, contributing to the preservation and spread of Islamic education worldwide.",
+      "order": 6,
       "createdAt": "2024-03-10T00:00:00Z",
       "updatedAt": "2024-03-10T00:00:00Z"
     }

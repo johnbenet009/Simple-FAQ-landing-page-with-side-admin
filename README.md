@@ -1,6 +1,6 @@
-# Simple FAQ Landing Page with Admin Panel
+# Sakeenah Arabic Institute FAQ System
 
-A modern, responsive FAQ landing page system built with React, TypeScript, and Tailwind CSS. This system provides a beautiful interface for managing and displaying frequently asked questions, complete with an admin panel and AI-powered question answering capabilities using Google's Gemini API.
+A modern, responsive FAQ system built with React, TypeScript, and Tailwind CSS. This application provides a beautiful interface for managing and displaying frequently asked questions about Sakeenah Arabic Institute's programs and services, complete with an admin panel and AI-powered question answering capabilities using Google's Gemini API.
 
 ## 🌟 Features
 
@@ -15,19 +15,21 @@ A modern, responsive FAQ landing page system built with React, TypeScript, and T
 
 ## 🚀 Demo
 
-Check out the live demo: [Simple FAQ Landing Page Demo](http://faq.sakeenaharabicinstitute.site)
+Check out the live demo: [Sakeenah Arabic Institute FAQ System](http://faq.sakeenaharabicinstitute.site)
 
 ## 📋 Prerequisites
 
+Before you begin, ensure you have:
 - Node.js 18 or higher
 - npm or yarn package manager
+- A Google Cloud account for Gemini API access
 
 ## 🛠 Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/johnbenet009/Simple-FAQ-landing-page-with-side-admin.git
-cd Simple-FAQ-landing-page-with-side-admin
+git clone https://github.com/yourusername/sakeenah-faq-system.git
+cd sakeenah-faq-system
 ```
 
 2. Install dependencies:
@@ -39,8 +41,8 @@ npm install
 ```env
 VITE_GEMINI_MODEL=gemini-pro
 VITE_GEMINI_KEY=your_gemini_api_key
-VITE_INSTITUTION_NAME="Your Institution Name"
-VITE_INSTITUTION_URL="https://your-institution-url.com"
+VITE_INSTITUTION_NAME="Sakeenah Arabic Institute"
+VITE_INSTITUTION_URL="https://sakeenaharabicinstitute.site"
 ```
 
 4. Start the development server:
@@ -54,8 +56,8 @@ npm run dev
 |----------|-------------|----------|
 | `VITE_GEMINI_MODEL` | Gemini AI model for Q&A | Yes |
 | `VITE_GEMINI_KEY` | Your Gemini API key | Yes |
-| `VITE_INSTITUTION_NAME` | Your institution's name | Yes |
-| `VITE_INSTITUTION_URL` | Your institution's website URL | Yes |
+| `VITE_INSTITUTION_NAME` | Institution name | Yes |
+| `VITE_INSTITUTION_URL` | Institution website URL | Yes |
 
 ## 📁 Project Structure
 
@@ -65,46 +67,49 @@ npm run dev
 │   ├── contexts/      # React context providers
 │   ├── pages/         # Page components
 │   ├── types/         # TypeScript definitions
-│   └── db.json       # Static FAQ data
+│   └── db.json       # FAQ data store
 ├── public/           # Static assets
 └── ...
 ```
 
 ## 👨‍💼 Admin Access
 
-The system includes an admin panel for FAQ management:
-- Default username: `admin`
-- Default password: `admin123`
+Access the admin panel at `/setup`:
+- Default username: `demo@demo.com`
+- Default password: `111`
 
-⚠️ **Security Note**: Change these credentials before deploying to production!
+⚠️ **Important**: Change these credentials before deploying to production!
 
-## 📝 FAQ Management
+## 📝 Content Management
 
-This system uses a static JSON file (`src/db.json`) for FAQ storage, making it ideal for:
-- Simple FAQ systems
-- Static content management
-- Version-controlled content
-- Easy deployment
-- No database setup required
+The system uses a static JSON file (`src/db.json`) for content storage, making it:
+- Simple to maintain
+- Version control friendly
+- Easy to deploy
+- Database-free
 
 ## ✨ Customization
 
 ### Theme
-Modify `tailwind.config.js` to customize colors, fonts, and other design tokens.
+Modify `tailwind.config.js` to customize:
+- Colors
+- Typography
+- Spacing
+- Other design tokens
 
-### Content
-Edit `src/db.json` to manage FAQ content:
+### Content Structure
+The `db.json` schema:
 ```json
 {
   "faqs": [
     {
-      "id": "1",
-      "question": "Your question here?",
-      "answer": "Your answer here",
-      "category": "general",
-      "relatedIds": [],
-      "createdAt": "2024-03-10T00:00:00Z",
-      "updatedAt": "2024-03-10T00:00:00Z"
+      "id": "string",
+      "question": "string",
+      "answer": "string",
+      "category": "string",
+      "relatedIds": ["string"],
+      "createdAt": "string",
+      "updatedAt": "string"
     }
   ]
 }
@@ -116,7 +121,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
 1. Fork the repository
 2. Create your feature branch
 3. Commit your changes
@@ -125,10 +129,17 @@ Contributions are welcome! Feel free to:
 
 ## 🙏 Acknowledgments
 
-- Built with React, TypeScript, and Tailwind CSS
-- Icons by Lucide React
-- AI capabilities powered by Google's Gemini API
+Built with:
+- React + TypeScript
+- Tailwind CSS
+- Lucide React icons
+- Google Gemini API
+- Framer Motion
+- React Router DOM
+- React Markdown
 
-## 📫 Contact
+## 📫 Support
 
-For questions or support, please open an issue in the [GitHub repository](https://github.com/johnbenet009/Simple-FAQ-landing-page-with-side-admin/issues).
+For questions or support:
+- Open an issue
+- Contact: support@sakeenaharabicinstitute.site
