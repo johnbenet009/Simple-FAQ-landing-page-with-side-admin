@@ -75,8 +75,8 @@ npm run dev
 ## 👨‍💼 Admin Access
 
 Access the admin panel at `/setup`:
-- Default username: `demo@demo.com`
-- Default password: `111`
+- Default username: `user@email.com`
+- Default password: `password`
 
 ⚠️ **Important**: Change these credentials before deploying to production!
 
@@ -117,7 +117,7 @@ The `db.json` schema:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) file for details.
 
 ## 🤝 Contributing
 
@@ -142,4 +142,5 @@ Built with:
 
 For questions or support:
 - Open an issue
-- Contact: support@sakeenaharabicinstitute.site
+- Contact: johnbenet0009@gmail.com
+- https://wa.me/2349014532386
