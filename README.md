@@ -41,8 +41,8 @@ npm install
 ```env
 VITE_GEMINI_MODEL=gemini-pro
 VITE_GEMINI_KEY=your_gemini_api_key
-VITE_INSTITUTION_NAME="Sakeenah Arabic Institute"
-VITE_INSTITUTION_URL="https://sakeenaharabicinstitute.site"
+VITE_INSTITUTION_NAME="Site Name"
+VITE_INSTITUTION_URL="https://example.com"
 ```
 
 4. Start the development server:
